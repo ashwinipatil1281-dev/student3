@@ -1,6 +1,4 @@
 import sys
-
-# Read 5 marks from command-line arguments
 marks = list(map(float, sys.argv[1:]))
 
 if len(marks) != 5:
